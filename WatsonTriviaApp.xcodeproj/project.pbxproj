@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F6E78851F390C130093ED8A /* RestKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F6E78841F390C130093ED8A /* RestKit.framework */; };
+		2F6E78871F3B875D0093ED8A /* InternationalRocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6E78861F3B875D0093ED8A /* InternationalRocket.swift */; };
+		2F958C461F464E30008FAFF0 /* LanguageText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F958C451F464E30008FAFF0 /* LanguageText.swift */; };
+		2FADD07F1F38FF86004D1174 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FADD07E1F38FF86004D1174 /* AppDelegate.swift */; };
+		2FADD08A1F38FF86004D1174 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FADD0881F38FF86004D1174 /* Main.storyboard */; };
+		2FADD08C1F38FF86004D1174 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FADD08B1F38FF86004D1174 /* Assets.xcassets */; };
+		2FADD08F1F38FF86004D1174 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FADD08D1F38FF86004D1174 /* LaunchScreen.storyboard */; };
+		2FADD09A1F38FF86004D1174 /* WatsonTriviaAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FADD0991F38FF86004D1174 /* WatsonTriviaAppTests.swift */; };
+		2FADD0A51F38FF86004D1174 /* WatsonTriviaAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FADD0A41F38FF86004D1174 /* WatsonTriviaAppUITests.swift */; };
+		2FADD0B71F390058004D1174 /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FADD0B61F390058004D1174 /* Credentials.swift */; };
+		2FADD0B91F390066004D1174 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FADD0B81F390066004D1174 /* Question.swift */; };
+		2FADD0BB1F39006C004D1174 /* GameParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FADD0BA1F39006C004D1174 /* GameParameters.swift */; };
+		2FADD0BD1F390082004D1174 /* QuestionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FADD0BC1F390082004D1174 /* QuestionController.swift */; };
+		2FADD0BF1F390086004D1174 /* ServerConnect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FADD0BE1F390086004D1174 /* ServerConnect.swift */; };
+		2FADD0C11F39008A004D1174 /* ScoreController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FADD0C01F39008A004D1174 /* ScoreController.swift */; };
+		2FADD0C31F39008F004D1174 /* SingleCatGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FADD0C21F39008F004D1174 /* SingleCatGame.swift */; };
+		2FADD0C71F39009A004D1174 /* MainMenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FADD0C61F39009A004D1174 /* MainMenuScene.swift */; };
+		2FADD0C91F3900B7004D1174 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FADD0C81F3900B7004D1174 /* GameViewController.swift */; };
+		2FADD0ED1F390625004D1174 /* SettingsScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FADD0EC1F390625004D1174 /* SettingsScene.swift */; };
+		2FADD0F01F390877004D1174 /* SpeechToTextV1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FADD0EE1F390877004D1174 /* SpeechToTextV1.framework */; };
+		2FADD0F11F390877004D1174 /* TextToSpeechV1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FADD0EF1F390877004D1174 /* TextToSpeechV1.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2FADD0961F38FF86004D1174 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FADD0731F38FF86004D1174 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FADD07A1F38FF86004D1174;
+			remoteInfo = WatsonTriviaApp;
+		};
+		2FADD0A11F38FF86004D1174 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FADD0731F38FF86004D1174 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FADD07A1F38FF86004D1174;
+			remoteInfo = WatsonTriviaApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F6E78841F390C130093ED8A /* RestKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RestKit.framework; sourceTree = "<group>"; };
+		2F6E78861F3B875D0093ED8A /* InternationalRocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InternationalRocket.swift; sourceTree = "<group>"; };
+		2F958C451F464E30008FAFF0 /* LanguageText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguageText.swift; sourceTree = "<group>"; };
+		2FADD07B1F38FF86004D1174 /* WatsonTriviaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatsonTriviaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FADD07E1F38FF86004D1174 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2FADD0891F38FF86004D1174 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2FADD08B1F38FF86004D1174 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2FADD08E1F38FF86004D1174 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2FADD0901F38FF86004D1174 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FADD0951F38FF86004D1174 /* WatsonTriviaAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatsonTriviaAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FADD0991F38FF86004D1174 /* WatsonTriviaAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatsonTriviaAppTests.swift; sourceTree = "<group>"; };
+		2FADD09B1F38FF86004D1174 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FADD0A01F38FF86004D1174 /* WatsonTriviaAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatsonTriviaAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FADD0A41F38FF86004D1174 /* WatsonTriviaAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatsonTriviaAppUITests.swift; sourceTree = "<group>"; };
+		2FADD0A61F38FF86004D1174 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FADD0B61F390058004D1174 /* Credentials.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Credentials.swift; sourceTree = "<group>"; };
+		2FADD0B81F390066004D1174 /* Question.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		2FADD0BA1F39006C004D1174 /* GameParameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameParameters.swift; sourceTree = "<group>"; };
+		2FADD0BC1F390082004D1174 /* QuestionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionController.swift; sourceTree = "<group>"; };
+		2FADD0BE1F390086004D1174 /* ServerConnect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerConnect.swift; sourceTree = "<group>"; };
+		2FADD0C01F39008A004D1174 /* ScoreController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreController.swift; sourceTree = "<group>"; };
+		2FADD0C21F39008F004D1174 /* SingleCatGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleCatGame.swift; sourceTree = "<group>"; };
+		2FADD0C61F39009A004D1174 /* MainMenuScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenuScene.swift; sourceTree = "<group>"; };
+		2FADD0C81F3900B7004D1174 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		2FADD0EC1F390625004D1174 /* SettingsScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsScene.swift; sourceTree = "<group>"; };
+		2FADD0EE1F390877004D1174 /* SpeechToTextV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpeechToTextV1.framework; sourceTree = "<group>"; };
+		2FADD0EF1F390877004D1174 /* TextToSpeechV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TextToSpeechV1.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FADD0781F38FF86004D1174 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FADD0F01F390877004D1174 /* SpeechToTextV1.framework in Frameworks */,
+				2FADD0F11F390877004D1174 /* TextToSpeechV1.framework in Frameworks */,
+				2F6E78851F390C130093ED8A /* RestKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FADD0921F38FF86004D1174 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FADD09D1F38FF86004D1174 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FADD0721F38FF86004D1174 = {
+			isa = PBXGroup;
+			children = (
+				2FADD07D1F38FF86004D1174 /* WatsonTriviaApp */,
+				2FADD0981F38FF86004D1174 /* WatsonTriviaAppTests */,
+				2FADD0A31F38FF86004D1174 /* WatsonTriviaAppUITests */,
+				2FADD07C1F38FF86004D1174 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2FADD07C1F38FF86004D1174 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FADD07B1F38FF86004D1174 /* WatsonTriviaApp.app */,
+				2FADD0951F38FF86004D1174 /* WatsonTriviaAppTests.xctest */,
+				2FADD0A01F38FF86004D1174 /* WatsonTriviaAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FADD07D1F38FF86004D1174 /* WatsonTriviaApp */ = {
+			isa = PBXGroup;
+			children = (
+				2FADD0B51F390010004D1174 /* View */,
+				2FADD0B41F38FFF9004D1174 /* Controller */,
+				2FADD0B31F38FFED004D1174 /* Model */,
+				2FADD0B21F38FFE3004D1174 /* Frameworks */,
+				2FADD07E1F38FF86004D1174 /* AppDelegate.swift */,
+				2FADD0881F38FF86004D1174 /* Main.storyboard */,
+				2FADD08B1F38FF86004D1174 /* Assets.xcassets */,
+				2FADD08D1F38FF86004D1174 /* LaunchScreen.storyboard */,
+				2FADD0901F38FF86004D1174 /* Info.plist */,
+			);
+			path = WatsonTriviaApp;
+			sourceTree = "<group>";
+		};
+		2FADD0981F38FF86004D1174 /* WatsonTriviaAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				2FADD0991F38FF86004D1174 /* WatsonTriviaAppTests.swift */,
+				2FADD09B1F38FF86004D1174 /* Info.plist */,
+			);
+			path = WatsonTriviaAppTests;
+			sourceTree = "<group>";
+		};
+		2FADD0A31F38FF86004D1174 /* WatsonTriviaAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2FADD0A41F38FF86004D1174 /* WatsonTriviaAppUITests.swift */,
+				2FADD0A61F38FF86004D1174 /* Info.plist */,
+			);
+			path = WatsonTriviaAppUITests;
+			sourceTree = "<group>";
+		};
+		2FADD0B21F38FFE3004D1174 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F6E78841F390C130093ED8A /* RestKit.framework */,
+				2FADD0EE1F390877004D1174 /* SpeechToTextV1.framework */,
+				2FADD0EF1F390877004D1174 /* TextToSpeechV1.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2FADD0B31F38FFED004D1174 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2FADD0B81F390066004D1174 /* Question.swift */,
+				2FADD0BA1F39006C004D1174 /* GameParameters.swift */,
+				2FADD0B61F390058004D1174 /* Credentials.swift */,
+				2F6E78861F3B875D0093ED8A /* InternationalRocket.swift */,
+				2F958C451F464E30008FAFF0 /* LanguageText.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		2FADD0B41F38FFF9004D1174 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2FADD0C81F3900B7004D1174 /* GameViewController.swift */,
+				2FADD0C01F39008A004D1174 /* ScoreController.swift */,
+				2FADD0BC1F390082004D1174 /* QuestionController.swift */,
+				2FADD0BE1F390086004D1174 /* ServerConnect.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		2FADD0B51F390010004D1174 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2FADD0C61F39009A004D1174 /* MainMenuScene.swift */,
+				2FADD0C21F39008F004D1174 /* SingleCatGame.swift */,
+				2FADD0EC1F390625004D1174 /* SettingsScene.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FADD07A1F38FF86004D1174 /* WatsonTriviaApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FADD0A91F38FF86004D1174 /* Build configuration list for PBXNativeTarget "WatsonTriviaApp" */;
+			buildPhases = (
+				2FADD0771F38FF86004D1174 /* Sources */,
+				2FADD0781F38FF86004D1174 /* Frameworks */,
+				2FADD0791F38FF86004D1174 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WatsonTriviaApp;
+			productName = WatsonTriviaApp;
+			productReference = 2FADD07B1F38FF86004D1174 /* WatsonTriviaApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2FADD0941F38FF86004D1174 /* WatsonTriviaAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FADD0AC1F38FF86004D1174 /* Build configuration list for PBXNativeTarget "WatsonTriviaAppTests" */;
+			buildPhases = (
+				2FADD0911F38FF86004D1174 /* Sources */,
+				2FADD0921F38FF86004D1174 /* Frameworks */,
+				2FADD0931F38FF86004D1174 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FADD0971F38FF86004D1174 /* PBXTargetDependency */,
+			);
+			name = WatsonTriviaAppTests;
+			productName = WatsonTriviaAppTests;
+			productReference = 2FADD0951F38FF86004D1174 /* WatsonTriviaAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2FADD09F1F38FF86004D1174 /* WatsonTriviaAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FADD0AF1F38FF86004D1174 /* Build configuration list for PBXNativeTarget "WatsonTriviaAppUITests" */;
+			buildPhases = (
+				2FADD09C1F38FF86004D1174 /* Sources */,
+				2FADD09D1F38FF86004D1174 /* Frameworks */,
+				2FADD09E1F38FF86004D1174 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FADD0A21F38FF86004D1174 /* PBXTargetDependency */,
+			);
+			name = WatsonTriviaAppUITests;
+			productName = WatsonTriviaAppUITests;
+			productReference = 2FADD0A01F38FF86004D1174 /* WatsonTriviaAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FADD0731F38FF86004D1174 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Elizabeth Noel";
+				TargetAttributes = {
+					2FADD07A1F38FF86004D1174 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					2FADD0941F38FF86004D1174 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2FADD07A1F38FF86004D1174;
+					};
+					2FADD09F1F38FF86004D1174 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2FADD07A1F38FF86004D1174;
+					};
+				};
+			};
+			buildConfigurationList = 2FADD0761F38FF86004D1174 /* Build configuration list for PBXProject "WatsonTriviaApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2FADD0721F38FF86004D1174;
+			productRefGroup = 2FADD07C1F38FF86004D1174 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FADD07A1F38FF86004D1174 /* WatsonTriviaApp */,
+				2FADD0941F38FF86004D1174 /* WatsonTriviaAppTests */,
+				2FADD09F1F38FF86004D1174 /* WatsonTriviaAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FADD0791F38FF86004D1174 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FADD08A1F38FF86004D1174 /* Main.storyboard in Resources */,
+				2FADD08C1F38FF86004D1174 /* Assets.xcassets in Resources */,
+				2FADD08F1F38FF86004D1174 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FADD0931F38FF86004D1174 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FADD09E1F38FF86004D1174 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FADD0771F38FF86004D1174 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FADD0C31F39008F004D1174 /* SingleCatGame.swift in Sources */,
+				2FADD0BD1F390082004D1174 /* QuestionController.swift in Sources */,
+				2FADD0B91F390066004D1174 /* Question.swift in Sources */,
+				2FADD0C11F39008A004D1174 /* ScoreController.swift in Sources */,
+				2FADD0C91F3900B7004D1174 /* GameViewController.swift in Sources */,
+				2FADD0BB1F39006C004D1174 /* GameParameters.swift in Sources */,
+				2F958C461F464E30008FAFF0 /* LanguageText.swift in Sources */,
+				2FADD0C71F39009A004D1174 /* MainMenuScene.swift in Sources */,
+				2F6E78871F3B875D0093ED8A /* InternationalRocket.swift in Sources */,
+				2FADD0B71F390058004D1174 /* Credentials.swift in Sources */,
+				2FADD0ED1F390625004D1174 /* SettingsScene.swift in Sources */,
+				2FADD07F1F38FF86004D1174 /* AppDelegate.swift in Sources */,
+				2FADD0BF1F390086004D1174 /* ServerConnect.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FADD0911F38FF86004D1174 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FADD09A1F38FF86004D1174 /* WatsonTriviaAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FADD09C1F38FF86004D1174 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FADD0A51F38FF86004D1174 /* WatsonTriviaAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2FADD0971F38FF86004D1174 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FADD07A1F38FF86004D1174 /* WatsonTriviaApp */;
+			targetProxy = 2FADD0961F38FF86004D1174 /* PBXContainerItemProxy */;
+		};
+		2FADD0A21F38FF86004D1174 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FADD07A1F38FF86004D1174 /* WatsonTriviaApp */;
+			targetProxy = 2FADD0A11F38FF86004D1174 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2FADD0881F38FF86004D1174 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FADD0891F38FF86004D1174 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2FADD08D1F38FF86004D1174 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FADD08E1F38FF86004D1174 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2FADD0A71F38FF86004D1174 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2FADD0A81F38FF86004D1174 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2FADD0AA1F38FF86004D1174 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WatsonTriviaApp",
+				);
+				INFOPLIST_FILE = WatsonTriviaApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks $(inherited) $(PROJECT_DIR)/WatsonTriviaApp";
+				PRODUCT_BUNDLE_IDENTIFIER = IBM.WatsonTriviaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2FADD0AB1F38FF86004D1174 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WatsonTriviaApp",
+				);
+				INFOPLIST_FILE = WatsonTriviaApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks $(inherited) $(PROJECT_DIR)/WatsonTriviaApp";
+				PRODUCT_BUNDLE_IDENTIFIER = IBM.WatsonTriviaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		2FADD0AD1F38FF86004D1174 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WatsonTriviaAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IBM.WatsonTriviaAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WatsonTriviaApp.app/WatsonTriviaApp";
+			};
+			name = Debug;
+		};
+		2FADD0AE1F38FF86004D1174 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WatsonTriviaAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IBM.WatsonTriviaAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WatsonTriviaApp.app/WatsonTriviaApp";
+			};
+			name = Release;
+		};
+		2FADD0B01F38FF86004D1174 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = WatsonTriviaAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IBM.WatsonTriviaAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = WatsonTriviaApp;
+			};
+			name = Debug;
+		};
+		2FADD0B11F38FF86004D1174 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = WatsonTriviaAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IBM.WatsonTriviaAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = WatsonTriviaApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FADD0761F38FF86004D1174 /* Build configuration list for PBXProject "WatsonTriviaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FADD0A71F38FF86004D1174 /* Debug */,
+				2FADD0A81F38FF86004D1174 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FADD0A91F38FF86004D1174 /* Build configuration list for PBXNativeTarget "WatsonTriviaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FADD0AA1F38FF86004D1174 /* Debug */,
+				2FADD0AB1F38FF86004D1174 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FADD0AC1F38FF86004D1174 /* Build configuration list for PBXNativeTarget "WatsonTriviaAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FADD0AD1F38FF86004D1174 /* Debug */,
+				2FADD0AE1F38FF86004D1174 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FADD0AF1F38FF86004D1174 /* Build configuration list for PBXNativeTarget "WatsonTriviaAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FADD0B01F38FF86004D1174 /* Debug */,
+				2FADD0B11F38FF86004D1174 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2FADD0731F38FF86004D1174 /* Project object */;
+}
