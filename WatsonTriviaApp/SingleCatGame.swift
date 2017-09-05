@@ -53,7 +53,7 @@ class SingleCatGame: SKScene {
     let scoreFontSize: CGFloat = 20
     let fontCol: UIColor = UIColor.white
     let scoreCol: UIColor = UIColor.black
-    let fontCorrectCol: UIColor = UIColor(red: 34.0/255.0, green: 200.0/255.0, blue: 34.0/255.0, alpha: 1.0)
+    let fontCorrectCol: UIColor = UIColor(red: 39.0/255.0, green: 196.0/255.0, blue: 243.0/255.0, alpha: 1.0)
     let fontIncorrectCol: UIColor = UIColor(red: 200.0/255.0, green: 0.0/255.0, blue: 0.0/255.0, alpha: 1.0)
     var moveToNextQuestion: Bool = true
     var gameVC: GameViewController!
